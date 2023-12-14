@@ -1,0 +1,16 @@
+.footer-screen{
+    width: 100%;
+    background-color: #172337;
+    /* height: 98vh; */
+
+}
+.footer_top_comp{
+  
+        width: 100%;
+        height:20vh;
+        position: absolute;
+        clip-path: polygon(0% 0%,100% 0%,0% 100%,0% 0%);
+        background-color: white;
+        /* bottom: -154px; */
+      
+}

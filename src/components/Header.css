@@ -1,0 +1,173 @@
+/* Default styles for larger screens */
+.hero-section {
+    margin-top: 0px;
+    background: linear-gradient(to bottom, #f0f8ff, #ffcccb);
+    color: #fff;
+    padding-bottom: 0;
+    text-align: center;
+    display: flex;
+    animation: fadeIn 1s ease-in-out;
+    z-index: 2;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.left-part {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    z-index: 10;
+}
+
+.data-holder {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    box-shadow: 0px 0 8px white inset;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: transform 0.3s ease; /* Add a transition effect */
+}
+
+.data-holder:hover {
+    transform: scale(1.05); /* Scale the element on hover */
+}
+
+.right-part {
+    width: 50%;
+    z-index: 10;
+}
+
+.hero-img {
+    width: 30vw;
+    z-index: 100;
+}
+
+.hero-img:hover {
+    animation: floatAnimation 3s ease-in-out infinite;
+}
+
+.headings {
+    margin: 0;
+    color: black;
+    text-shadow: 3px 0 10px white;
+    font-weight: bold;
+    text-align: start;
+    z-index: 10;
+}
+
+.sub_headings {
+    color: black;
+    text-shadow: 3px 0 8px white;
+    margin: 0;
+    text-align: start;
+    z-index: 10;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.hero-back-img {
+    position: absolute;
+    height: 90%;
+    margin-top: 20px;
+    width: 100%;
+    z-index: 3;
+}
+
+.btn-1 {
+    background-color: #078d84;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 0 10px #078d87 inset;
+    backdrop-filter: blur(10px);
+    opacity: 0.8;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.2s ease, opacity 0.3s ease;
+}
+
+.btn-1:hover {
+    transform: scale(1.05); /* Scale the element on hover */
+}
+
+.btn-2:hover {
+    transform: scale(1.05); /* Scale the element on hover */
+}
+
+.btn-2 {
+    padding: 9px 19px;
+    border-radius: 5px;
+    color: #078d84;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    opacity: 0.8;
+    border-width: 1px;
+    border-color: #078d84;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease, opacity 0.3s ease;
+}
+
+.button-holder {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.skill-img {
+    height: 70px;
+    position: absolute;
+    bottom: 20px;
+    animation: floatAnimation 3s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+
+    .left-part, .right-part {
+        width: 100%; /* Make both parts take the full width on smaller screens */
+        padding-left: 0; /* Remove left padding */
+    }
+
+    .data-holder {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    .hero-img {
+        width: 50%; /* Reduce image size on smaller screens */
+    }
+    .hero-back-img{
+        display: none;
+    }
+    .skill-img{
+        display: none;
+    }
+
+    /* Add more responsive styles as needed */
+}

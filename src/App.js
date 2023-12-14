@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import { useEffect } from 'react';
+import MyExperience from './components/MyExperience';
+import SomeProjects from './components/SomeProjects';
+import Footer from './components/Footer';
+// import { Link, Element } from 'react-scroll';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="dynamic-background ">
+     <Header/>
+     <Experience/>
+     <Projects/>
+     <MyExperience/>
+     <SomeProjects/>
+     <Footer/>
     </div>
   );
 }
