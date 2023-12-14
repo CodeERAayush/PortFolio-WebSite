@@ -57,7 +57,7 @@ function BottomArea() {
 
 
       <div className="bottom-area-footer">
-        <p className="bottom-area-options">View My CV</p>
+        <a href="https://drive.google.com/file/d/1U-C2BqKQiQ4N7-QwMgAYp-fLFk0NzplD/view?usp=sharing" className="bottom-area-options">View My CV</a>
         <p className="bottom-area-options">Projects</p>
         <p className="bottom-area-options">Experience</p>
         <p className="bottom-area-options">Skills</p>

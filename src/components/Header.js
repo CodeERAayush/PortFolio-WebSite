@@ -25,7 +25,11 @@ const Header = () => {
             <Button
             className='btn-1'
             >
+              <a 
+              style={{textDecoration:'none',color:'white'}}
+              href='https://drive.google.com/file/d/1U-C2BqKQiQ4N7-QwMgAYp-fLFk0NzplD/view?usp=sharing'>
                 DOWNLOAD CV
+                </a>
                 <i class="fas fa-download"></i> 
             </Button>
             <Button
