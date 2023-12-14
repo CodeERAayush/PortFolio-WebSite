@@ -1,7 +1,7 @@
 import React from 'react'
 import "./ProjectCard.css"
 export default function ProjectCard({project}) {
-  const { tech,title, native, info, image } = project;
+  const { tech,title, native, info, image,link } = project;
   return (
     <div className="card-container">
     <img className="card-image" src={image} alt={title} />
@@ -16,6 +16,7 @@ export default function ProjectCard({project}) {
       }
       </div>
       <p className="project-info">{info}</p>
+     {link? <a className="project-info" target="_main" href={link}>View</a>:null}
     </div>
   </div>
   )
