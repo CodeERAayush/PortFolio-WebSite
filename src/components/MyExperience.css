@@ -37,7 +37,9 @@
     .parent_card {
         padding-left: 0px;
     }
-
+    .exper-bottom-myPro:{
+        display: none;
+    }
     .right-side-experience {
         padding-top: 20px;
     }
