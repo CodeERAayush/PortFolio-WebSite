@@ -4,12 +4,20 @@ import ProjectCard from './cards/projectcard'
 export default function SomeProjects() {
   const projects = [
     {
+      title: 'DrishyaDarshan- Google Meet Clone',
+      tech:["React","Socket IO","WebRTC","Node.js", "Material UI"],
+      native: 'React Native, Socket.Io, NodeJs',
+      info: 'A Completly working Google Meet clone that supports group video chat, made using WebRTC.',
+      image: 'https://lh3.googleusercontent.com/CPPP8wMdfaWyzjtnJuTp2fnuaz4I0DJ7j4Hib3atRKLUZ3Ru3lqtdGUO7ZjsISC9PvEXZVoaJk2SQwxgdTIEoMKKooGUp-fWigYHtaghSAdQ9WqGChw=w960-rw', // Replace with your project image URL
+      link:"https://github.com/CodeERAayush/DrishyaDarshan---Video-Calling-WebApp.git"
+    },
+    {
       title: 'Social Media Website',
       tech:["React","Express.js","MongoDB","Node.js","Tailwind Css"],
       native: 'React Native, Socket.Io, NodeJs',
       info: 'It is a full fledged React WebApp Developed Using MERN technology, One Can Book Room Filter Rooms Accordng To Date etc.,',
       image: 'https://www.webfox.dev/assets/img/solutionbanner/on-demand-social-network-website.webp', // Replace with your project image URL
-      link:""
+      link:"https://codeeraayush-socialbutterfly.vercel.app/"
     },
     {
       title: 'YourRooms- Room Booking Website',
@@ -17,7 +25,7 @@ export default function SomeProjects() {
       native: 'React Native, Socket.Io, NodeJs',
       info: 'It is a full fledged React WebApp Developed Using MERN technology, One Can Book Room Filter Rooms Accordng To Date etc.,',
       image: 'https://www.oyorooms.com/officialoyoblog/wp-content/uploads/2016/06/business-oyo-WEB-BANNERS.png', // Replace with your project image URL
-      link:""
+      link:"https://github.com/CodeERAayush/YourRooms.git"
 
     },
     {

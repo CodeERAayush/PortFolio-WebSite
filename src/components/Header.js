@@ -27,7 +27,7 @@ const Header = () => {
             >
               <a 
               style={{textDecoration:'none',color:'white'}}
-              href='https://drive.google.com/file/d/1U-C2BqKQiQ4N7-QwMgAYp-fLFk0NzplD/view?usp=sharing'>
+              href='https://drive.google.com/file/d/1J2CSFAyuWn9DOoWty3i5lVUy_VNSrpRc/view?usp=sharing'>
                 DOWNLOAD CV
                 </a>
                 <i class="fas fa-download"></i> 
